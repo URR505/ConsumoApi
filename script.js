@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       console.log(data); // Imprime los datos del pokemon en la consola para asegurarme 
 
-      // Extrae la información específica del Pokémon de los datos obtenidos.
+      // Extrae la información específica del Pokemon de los datos obtenidos.
       const pokemonName = data.name;
       const pokemonHeight = data.height;
       const pokemonWeight = data.weight;
